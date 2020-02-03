@@ -35,10 +35,10 @@ body {
     /* font-family: 'Roboto', sans-serif; */
     /* font-family: 'Montserrat', sans-serif; */
     font-size: 7vw;
-    margin-right: 50px;
-    font-weight: 0;
-    line-height: 20px;
-    margin-bottom: 40px;
+    /* margin-right: 50px; */
+    /* font-weight: 0; */
+    /* line-height: 20px; */
+    margin-bottom: 0%;
 }
 
 p {
@@ -63,14 +63,19 @@ p {
 
 .name {
     width: 70%;
+    margin: 0 auto;
 }
 
 .text {
-    font-size: 25px;
+    /* font-size: 25px;
     margin-top: 20px;
     margin-bottom: 0px;
-    margin-right: 50px;
-
+    margin-right: 50px; */
+    font-size: 1.515vw;
+    /* margin-top: 1.212vw; */
+    /* margin-bottom : 1.212vw; */
+    /* margin-right: 3.03vw; */
+    margin : 0 auto;
     color: white;
     font-family: 'Raleway', sans-serif;
     /*font-family: 'Roboto', sans-serif;*/
@@ -82,12 +87,11 @@ p {
 .fa-kaggle:before {
   font-family: roboto;
   /* color: #429bf4; */
-  z-index: 1;
   color: transparent;
   
-  font-size: 1.2em;
+  font-size: 1.1em;
   content: "k";
-  margin: auto;
+  margin: 0, 0.485vw;
   /*any letter of your choice but for kaggle "k"*/
 }
 
@@ -109,21 +113,23 @@ p {
 
 
 .hexagon-wrapper {
+
     position: relative;
     left: relative;
-    padding: 10px 8px 8px 8px !important;
-    margin: auto;
+    margin: 0 auto;
     text-align: initial;
-    width: 70px;
-    height: 70px;
+    width: 5.242vw;
+    height: 5.242vw;
     position: relative;
     float: left;
   }
   .hexagon {
+
+    cursor : pointer;
     position: relative;
     width: 80%;
     height: 46%;
-    margin: auto;
+    margin: 0 auto;
     background: linear-gradient(-180deg,  #ADEFD1FF, #5d82c7);
     display: flex;
     align-content: center;
@@ -131,19 +137,22 @@ p {
     transition: 0.5s;
   }
   .hexagon i {
-    z-index: 1;
-    margin: auto;
-    font-size: 40px;
+    z-index: 100;
+    padding: 0vw 0.485vw 0.485vw 0.485vw !important;
+    position: relative;
+    margin: 0 0.485vw;
+    font-size: 2.424vw;
     color: transparent;
     background: linear-gradient(45deg, #00203FFF, #00203FFF);
     background-clip: text;
     -webkit-background-clip: text;
   }
   .hexagon i:hover{
-    color: #ADEFD1FF;
+    color: rgb(11, 69, 128);
   }
   .fa-kaggle:hover:before{
-    color: rgb(9, 49, 49);
+    z-index: 100;
+    color: rgb(11, 69, 128);
   } 
   .hexagon:before,
   .hexagon:after {
@@ -163,19 +172,23 @@ p {
     transform: rotateZ(-60deg);
   }
   .hexagon:hover {
-    border-radius: 50px;
+    border-radius: 3.03vw;
     transition: 0.5s;
   }
   .hexagon:hover:before {
-    border-radius: 50px;
+    border-radius: 3.03vw;
     transition: 0.5s;
   }
   .hexagon:hover:after {
-    border-radius: 50px;
+    border-radius: 3.03vw;
     transition: 0.5s;
   }
 
 
+.icons{
+    margin: 0 auto;
+    padding: 2vw 0.485vw 0.485vw 20vw !important;
+}
 /* .ico {
     border: 4px double rgba(255, 255, 255, 0.41);
     border-radius: 50%;
@@ -248,13 +261,19 @@ p {
     }
     .head {
         font-size: 13vw;
-        margin-bottom: 0px !important;
+        margin-bottom: 0vw !important;
         padding: 0 !important;
     }
     .text {
         font-size: 4vw;
-        margin-bottom: 4px !important;
-        margin-top: 5px !important;
+        margin-bottom: 0.242vw !important;
+        margin-top: 0.303vw !important;
+    }
+
+    .icons {
+        margin: 0 auto;
+        /* margin-bottom: 0.242vw !important;
+        margin-top: 0.303vw !important; */
     }
     /* .ico {
         border: 4px double white;
@@ -269,10 +288,6 @@ p {
         text-decoration: none;
         margin: 0px 3px !important;
     } */
-    .icons {
-        margin-bottom: 8px;
-
-    }
     /* .ico-res {
         border: 4px double white;
         border-radius: 50%;
@@ -293,7 +308,7 @@ p {
         font-size: 2em !important;
     }
     ul {
-        padding: 0px !important;
+        padding: 0 !important;
     }
 }
 
