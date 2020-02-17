@@ -273,28 +273,30 @@ p {
     }
     .text {
         font-size: 4vw;
+        width: 80%;
         margin-bottom: 0.242vw !important;
         margin-top: 0.303vw !important;
     }
 
     .icons {
         margin: 0 auto;
-        /* margin-bottom: 0.242vw !important;
-        margin-top: 0.303vw !important; */
+        float: center;
+        margin-bottom: 0.242vw !important;
+        margin-top: 0.303vw !important;
     }
-    /* .ico {
-        border: 4px double white;
-        border-radius: 50%;
+    .hexagon-wrapper {
+        /* border: 4px double white; */
+        /* border-radius: 50%; */
         display: inline-block;
-        width: 20px;
-        height: 20px;
-        padding: 5px !important;
+        width: 40px;
+        height: 40px;
+        padding: 0px !important;
         position: relative;
         background: transparent;
         transition: all 0.2s ease;
         text-decoration: none;
-        margin: 0px 3px !important;
-    } */
+        margin: 0px 0px !important;
+    }
     /* .ico-res {
         border: 4px double white;
         border-radius: 50%;
@@ -339,4 +341,5 @@ p {
 .quora {
     margin-left: -2px;
 } */
+
 
