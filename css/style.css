@@ -1,5 +1,8 @@
 /* ---- reset ---- */
 
+@import url('https://fonts.googleapis.com/css?family=Cairo&display=swap');
+
+
 body {
     margin: 0;
     font: normal 75% Arial, Helvetica, sans-serif;
@@ -26,17 +29,23 @@ body {
   background-position: 50% 50%;*/
 }
 
+@font-face{
+    font-family: 'MyFont';
+    src : local('MyFont'), url(../assets/MyFont.ttf) format('truetype');
+}
+
 .head {
     color: #ADEFD1FF;
-    font-family: 'Pacifico', cursive;
+    font-family: 'MyFont';
+    /* font-family: 'Pacifico', cursive; */
     /* font-family: 'Karla', sans-serif; */
     /* font-family: 'Sawarabi Mincho', serif; */
     /* font-family: 'Raleway', sans-serif; */
     /* font-family: 'Roboto', sans-serif; */
     /* font-family: 'Montserrat', sans-serif; */
-    font-size: 7vw;
+    font-size: 10vw;
     /* margin-right: 50px; */
-    /* font-weight: 0; */
+    font-weight: bold;
     /* line-height: 20px; */
     margin-bottom: 0%;
 }
@@ -77,7 +86,7 @@ p {
     /* margin-right: 3.03vw; */
     margin : 0 auto;
     color: white;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Cairo', sans-serif;
     /*font-family: 'Roboto', sans-serif;*/
     /*font-family: 'Montserrat', sans-serif;*/
 }
@@ -113,18 +122,15 @@ p {
 
 
 .hexagon-wrapper {
-
-    position: relative;
-    left: relative;
     margin: 0 auto;
-    text-align: initial;
     width: 5.242vw;
     height: 5.242vw;
-    position: relative;
     float: left;
+    display : inline-block;
+
+
   }
   .hexagon {
-
     cursor : pointer;
     position: relative;
     width: 80%;
@@ -186,6 +192,7 @@ p {
 
 
 .icons{
+
     margin: 0 auto;
     padding: 2vw 0.485vw 0.485vw 20vw !important;
 }
