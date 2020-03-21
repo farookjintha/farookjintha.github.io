@@ -1,6 +1,7 @@
 /* ---- reset ---- */
 
 @import url('https://fonts.googleapis.com/css?family=Cairo&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway:200&display=swap');
 
 
 body {
@@ -76,14 +77,7 @@ p {
 }
 
 .text {
-    /* font-size: 25px;
-    margin-top: 20px;
-    margin-bottom: 0px;
-    margin-right: 50px; */
     font-size: 1.515vw;
-    /* margin-top: 1.212vw; */
-    /* margin-bottom : 1.212vw; */
-    /* margin-right: 3.03vw; */
     margin : 0 auto;
     color: white;
     font-family: 'Cairo', sans-serif;
@@ -126,6 +120,7 @@ p {
     width: 5.242vw;
     height: 5.242vw;
     float: left;
+    /* left: 100; */
     display : inline-block;
 
 
@@ -196,6 +191,20 @@ p {
     margin: 0 auto;
     padding: 2vw 0.485vw 0.485vw 20vw !important;
 }
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 10;
+    font-size: 11px;
+    /* background-color: red; */
+    color: white;
+    text-align: center;
+}
+
 /* .ico {
     border: 4px double rgba(255, 255, 255, 0.41);
     border-radius: 50%;
@@ -280,9 +289,9 @@ p {
 
     .icons {
         margin: 0 auto;
-        float: center;
-        margin-bottom: 0.242vw !important;
-        margin-top: 0.303vw !important;
+        float: left;
+        /* margin-bottom: 0.242vw !important;
+        margin-top: 0.303vw !important; */
     }
     .hexagon-wrapper {
         /* border: 4px double white; */
@@ -297,6 +306,7 @@ p {
         text-decoration: none;
         margin: 0px 0px !important;
     }
+    
     /* .ico-res {
         border: 4px double white;
         border-radius: 50%;
