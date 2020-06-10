@@ -6,8 +6,7 @@
 
 body {
     margin: 0;
-    /* width: 100%; */
-    /* padding: 10px; */
+    font: normal 75% Arial, Helvetica, sans-serif;
 }
 
 .wrapper {
@@ -185,9 +184,6 @@ p {
     border-radius: 3.03vw;
     transition: 0.5s;
   }
-
-
-
 
 .footer{
     position: fixed;
