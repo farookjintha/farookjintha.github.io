@@ -14,7 +14,6 @@ body {
     overflow-x: hidden !important;
 }
 
-
 /* ---- particles.js container ---- */
 
 #particles-js {
@@ -61,8 +60,6 @@ p {
 }
 
 .name {
-    /* position: relative; */
-    /* left: 220px; */
     width: 70%;
 }
 
@@ -74,11 +71,6 @@ p {
     font-family: 'Cairo', sans-serif;
 }
 
-/* .designation{
-    position: relative;
-    left: 50px;
-    top: 20px;
-} */
 
 .icons{
     display: inline-block;
@@ -87,40 +79,19 @@ p {
     margin: 0;
 }
 
-
-
 .fa-kaggle:before {
   font-family: roboto;
   color: transparent;
   font-size: 1.1em;
   content: "k";
   margin: 0, 0.485vw;
-  /*any letter of your choice but for kaggle "k"*/
 }
-
-/* .fb,
-.lin,
-.git,
-.medium,
-.twit,
-.mail,
-.fcc,
-.res,
-.stack-overflow,
-.quora,
-.kaggle {
-    
-    background: linear-gradient(45deg, #a58fe9, #e37682);
-} */
-
-
 
 .hexagon-wrapper {
     
     width: 5.242vw;
     height: 5.242vw;
     display : inline-block;
-    /* padding: 0px; */
     position: relative;
     text-decoration: none;
     margin: 22px 0px;
@@ -198,61 +169,6 @@ p {
     text-align: center;
 }
 
-/* .ico {
-    border: 4px double rgba(255, 255, 255, 0.41);
-    border-radius: 50%;
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    padding: 11px;
-    position: relative;
-    background: transparent;
-    transition: all 0.2s ease;
-    text-decoration: none;
-    margin: 22px 8px;
-
-} */
-
-
-
-/* .ico:hover {
-    cursor: pointer;
-    border: 4px double #07c2fc;
-    
-} */
-
-/* .ico-res {
-    border: 4px double white;
-    border-radius: 50%;
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    padding: 10px 8px 8px 8px;
-    position: relative;
-    background: transparent;
-    transition: all 0.2s ease;
-    text-decoration: none;
-    margin: 0px 8px;
-} */
-
-/* .ico:hover {
-    transform: translateY(-4px);
-}
-
-.ico-res:hover {
-    transform: translateY(-4px);
-}
-
-.fa:hover {
-    color: white;
-} */
-
-/* .fa-kaggle:hover:before{
-  color: white;
-} */
-
-
-
 #bar {
     position: fixed;
     top: 20%;
@@ -261,8 +177,6 @@ p {
     height: 40%;
     -webkit-transition: 0.1s ease all;
 }
-
-
 
 @media screen and (max-width: 700px) {
     .name {
@@ -282,14 +196,8 @@ p {
 
     .icons {
         margin-bottom: 8px;
-        /* margin: 0 auto;
-        float: left;     */
-        /* margin-bottom: 0.242vw !important;
-        margin-top: 0.303vw !important; */
     }
     .hexagon-wrapper {
-        /* border: 4px double white; */
-        /* border-radius: 50%; */
         display: inline-block;
         width: 55px;
         height: 55px;
@@ -300,20 +208,6 @@ p {
         text-decoration: none;
         margin: 0px 0px !important;
     }
-    
-    /* .ico-res {
-        border: 4px double white;
-        border-radius: 50%;
-        display: inline-block;
-        width: 20px;
-        height: 20px;
-        padding: 10px 8px 8px 8px !important;
-        position: relative;
-        background: transparent;
-        transition: all 0.2s ease;
-        text-decoration: none;
-        margin: 0px 8px !important;
-    } */
     .fa-2x {
         font-size: 1.5em !important;
     }
@@ -327,26 +221,3 @@ p {
         padding: 0 !important;
     }
 }
-
-/* .fcc {
-    margin-left: -6px;
-}
-
-.medium {
-    margin-left: -2px;
-}
-
-.stack-overflow {
-    margin-right: 2px;
-    margin-top: -2px
-}
-
-.mail {
-    margin-left: -2px
-}
-
-.quora {
-    margin-left: -2px;
-} */
-
-
