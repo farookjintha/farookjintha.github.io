@@ -199,8 +199,8 @@ p {
     }
     .hexagon-wrapper {
         display: inline-block;
-        width: 55px;
-        height: 55px;
+        width: 40px;
+        height: 40px;
         padding: 0px !important;
         position: relative;
         background: transparent;
